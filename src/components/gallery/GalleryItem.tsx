@@ -39,6 +39,7 @@ export default function GalleryItem({ item, index }: GalleryItemProps) {
             playsInline
             loop
             src={item.url}
+            preload="metadata"
           />
           <button
             onClick={togglePlay}
