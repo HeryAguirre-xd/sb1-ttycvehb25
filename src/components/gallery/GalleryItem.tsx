@@ -67,7 +67,6 @@ export default function GalleryItem({ item, index }: GalleryItemProps) {
           src={item.url}
           alt={item.description}
           className="w-full h-full object-cover"
-          loading="lazy"
           onError={(e) => {
             console.error('Image Error:', e);
             e.currentTarget.src = 'https://via.placeholder.com/400x400?text=Image+Not+Found';

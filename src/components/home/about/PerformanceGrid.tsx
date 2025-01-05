@@ -22,7 +22,6 @@ export default function PerformanceGrid() {
             src={image}
             alt="Band performance"
             className="w-full h-full object-cover"
-            loading="lazy"
           />
         </motion.div>
       ))}
