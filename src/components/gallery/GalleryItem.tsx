@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Play, Pause } from 'lucide-react';
 import { useVideo } from '../../hooks/useVideo';
@@ -38,8 +37,9 @@ export default function GalleryItem({ item, index }: GalleryItemProps) {
             className="w-full h-full object-cover"
             playsInline
             loop
-            src={item.url}
             preload="metadata"
+            src={item.url}
+            poster={item.poster} // Add the poster property
           />
           <button
             onClick={togglePlay}
