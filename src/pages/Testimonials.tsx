@@ -1,0 +1,1 @@
+// Delete entire file - testimonials are in SocialProof component

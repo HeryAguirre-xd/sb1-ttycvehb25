@@ -1,0 +1,1 @@
+// Delete entire file - using HeroSection instead
