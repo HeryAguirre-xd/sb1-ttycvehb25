@@ -14,7 +14,7 @@ export default function ElectricTitle() {
       <div className="relative px-8 py-7 bg-[#1A0B2E] rounded-lg leading-none">
         <h2 className="text-5xl font-bold">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6B2FD9] to-[#06B6D4] animate-pulse">
-            De Rio Rico, AZ<br />al mundo!
+            De Nogales, AZ<br />al mundo!
           </span>
         </h2>
       </div>

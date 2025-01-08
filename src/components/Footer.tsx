@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
@@ -18,7 +17,7 @@ export default function Footer() {
             </a>
             <div className="flex items-center justify-center">
               <MapPin className="h-5 w-5 mr-2" />
-              Rio Rico, Arizona
+              Nogales, Arizona
             </div>
           </div>
         </div>
